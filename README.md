@@ -13,3 +13,7 @@ Uiautomatorviewer 를 이용해서 간단한 자동화이다
 
 <2018-12-9>
 앱 package name을 ablog,tistory에서 네이버 지도 앱으로 바꾸었다.
+
+
+<2018-12-16>
+test
