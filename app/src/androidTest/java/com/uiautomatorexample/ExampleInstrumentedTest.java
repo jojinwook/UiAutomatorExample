@@ -126,9 +126,10 @@ public class ExampleInstrumentedTest {
         assertThat(waitForResult, is(true));
 
         //getBySelector에 해당되는 UI Component 호출하여 검색 조건이 일치하는 경우에 Ui Componet 객체 반환
-        UiObject2 uiObject = mDevice.findObject(getBySelector);
-
-        return uiObject;
+//        UiObject2 uiObject = mDevice.findObject(getBySelector);
+//
+//        return uiObject;
+          return mDevice.findObject(getBySelector);
     }
 
 }
