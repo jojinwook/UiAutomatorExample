@@ -16,3 +16,5 @@ Uiautomatorviewer 를 이용해서 간단한 자동화이다.
 <2018-12-16>
 test
 
+<2018-12-21>
+search_textview 
