@@ -87,16 +87,24 @@ public class ExampleInstrumentedTest {
             openApp("com.nhn.android.nmap");
         }
 
-        //네이버 지도 앱 메인 화면의 메뉴 버튼 클릭
+//        //네이버 지도 앱 메인 화면의 메뉴 버튼 클릭
+//        {
+//            ///버튼 객체를 가져오는 메소드(함수)에 Byselector 의 resource-id 를 파라미터로 전달
+//            UiObject2 gnb_menu_btn = waitForObject(By.res("com.nhn.android.nmap:id/btn_drawer"));
+//
+//            //버튼 클릭이 동장학때까지 2초간 대기(timeout 이후 테스트 실패)
+//            boolean clickAndWaitForResult =  gnb_menu_btn.clickAndWait(Until.newWindow(), UI_TIMEOUT);
+//        }
+//    }
+
+        //네이버 지도 앱 상단 '검색 필드' 클릭
         {
-            ///버튼 객체를 가져오는 메소드(함수)에 Byselector 의 resource-id 를 파라미터로 전달
-            UiObject2 gnb_menu_btn = waitForObject(By.res("com.nhn.android.nmap:id/btn_drawer"));
+            // '검색 필드' 객체를 가져오는 메소드(함수)에 BySelector 의 'resource-id'를 파라미터로 전달
+            UiObject2 search_textview = waitForObject(By.res("com.nhn.android.nmap:id/search_textview"));
 
-            //버튼 클릭이 동장학때까지 2초간 대기(timeout 이후 테스트 실패)
-            boolean clickAndWaitForResult =  gnb_menu_btn.clickAndWait(Until.newWindow(), UI_TIMEOUT);
+            // '검색 필드' 클릭이 동작할 때 까지 2초간 대기(TIMEOUT 이후 테스트 실패)
+            boolean clickAndWaitForResult = search_textview.clickAndWait(Until.newWindow(),UI_TIMEOUT);
         }
-    }
-
 
     // 'Package Name'을 파라미터로 입력 받아 테스트 대상 앱을 실행하는 메소드(함수)
     private void openApp(String getPackageName){
