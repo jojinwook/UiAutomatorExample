@@ -39,25 +39,6 @@ public class ExampleInstrumentedTest {
 //
 //        assertEquals("com.uiautomatorexample", appContext.getPackageName());
 //    }
-
-    //기본 setting
-//    @Before
-//    public void testcase_initalize_1 () {
-//
-//    }
-//    // @Before
-//    public void testcase_initalize_2(){
-//
-//    }
-//    @Test
-//    public void testcase_app_run(){
-//
-//    }
-//    //    @Test
-//    public void testcase_app_close(){
-//
-//    }
-//
     private UiDevice mDevice;
     private static final int LAUNCH_TIMEOUT = 5000;
     private static final int UI_TIMEOUT = 2000;
@@ -143,3 +124,26 @@ public class ExampleInstrumentedTest {
     }
 
 }
+
+    
+    
+    
+//     < 기본 automatior setting >
+    
+//    @Before
+//    public void testcase_initalize_1 () {
+//
+//    }
+//    // @Before
+//    public void testcase_initalize_2(){
+//
+//    }
+//    @Test
+//    public void testcase_app_run(){
+//
+//    }
+//    //    @Test
+//    public void testcase_app_close(){
+//
+//    }
+//
