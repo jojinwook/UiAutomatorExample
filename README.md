@@ -22,3 +22,7 @@ search_textview
 
 <2019-01-20>
 appium
+
+
+<2019-01-21>
+androdi automatior
