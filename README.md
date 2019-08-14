@@ -24,6 +24,6 @@ appium
 
 
 <2019-01-21>
-androdi automatior
+android automatior
 
 
