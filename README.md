@@ -1,7 +1,7 @@
 # UiAutomatorExample
 
 
-Uiautomatorviewer 를 이용
+Uiautomatorviewer를 이용
 
 
 
