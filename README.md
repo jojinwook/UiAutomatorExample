@@ -20,7 +20,7 @@ search_textview
 
 
 <2019-01-20>
-appium
+test automation
 
 
 <2019-01-21>
