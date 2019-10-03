@@ -27,5 +27,3 @@ test automation
 android automatior
 
 <2019-09-11>
-test
-
