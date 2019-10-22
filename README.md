@@ -1,6 +1,7 @@
 # UiAutomatorExample
 
-Uiautomatorviewer를 이용
+
+### Uiautomatorviewer
 
 <2018-12-3 ~ 2018-12-7>
 지정한 앱이 안켜져있고 다른앱이 켜져있으면 백그라운드로 이동 후 지정한 앱이 켜진후 
