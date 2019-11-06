@@ -23,6 +23,3 @@ test automation
 
 <2019-01-21>
 android automatior
-
-
-Test
