@@ -1,6 +1,5 @@
 # UiAutomatorExample
 
-
 ### Uiautomatorviewer
 
 <2018-12-9>
