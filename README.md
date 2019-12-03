@@ -9,9 +9,5 @@
 search_textview 
 
 
-<2019-01-20>
-test automation
-
-
 <2019-01-21>
 android automatior
